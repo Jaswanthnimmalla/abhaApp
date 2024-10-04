@@ -62,11 +62,6 @@ class _SplashScreenState extends State<SplashScreen>
         body: Stack(
           fit: StackFit.expand,
           children: [
-            // Container(
-            //   height: MediaQuery.of(context).size.height,
-            //   width: MediaQuery.of(context).size.width,
-            //   color: Colors.black,
-            // ),
             Center(
               child: ScaleTransition(
                 scale: _scaleAnimation,
